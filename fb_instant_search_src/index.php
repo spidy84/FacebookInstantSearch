@@ -99,11 +99,9 @@ console.log(d);
 
     <?php else: ?>
       <div>
-        Check the login status using OAuth 2.0 handled by the PHP SDK:
         <a href="<?php echo $statusUrl; ?>">Check the login status</a>
       </div>
       <div>
-        Login using OAuth 2.0 handled by the PHP SDK:
         <a href="<?php echo $loginUrl; ?>">Login with Facebook</a>
       </div>
     <?php endif ?>
